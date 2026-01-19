@@ -1,0 +1,30 @@
+{
+  "name": "@chalker/fake-endianness",
+  "version": "1.0.0",
+  "description": "A hack to reverse JS endianness for tests",
+  "homepage": "https://github.com/ChALkeR/fake-endianness#readme",
+  "bugs": {
+    "url": "https://github.com/ChALkeR/fake-endianness/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ChALkeR/fake-endianness.git"
+  },
+  "license": "MIT",
+  "author": {
+    "name": "Nikita Skovoroda",
+    "email": "chalkerx@gmail.com",
+    "url": "https://github.com/ChALkeR"
+  },
+  "exports": {
+    ".": {
+      "import": "./index.js",
+      "require": "./index.js"
+    }
+  },
+  "main": "index.js",
+  "files": [],
+  "scripts": {
+    "test": "node --test"
+  }
+}
